@@ -1,18 +1,21 @@
-var name=prompt("WHAT IS YOUR NAME?")
+var name=prompt("WHAT IS YOUR NAME?");
 alert("Thank you for visit us"+name);
 function myFunction() {
-   confirm("Press a button!");
+
+
+
+   // confirm("Press a button!");
  }
-myFunction()
+// myFunction();
 var month =prompt("Enter the month of the year") ;
 var result ;
-if (month==='december'|month=== 'janyary'|month ==='february'){
+if (month==='december' || month=== 'janyary'||month ==='february'){
    result = 'nice winter';
-}else if( month=== 'march'| month=== 'april'| month==='may'){
+}else if( month=== 'march'|| month=== 'april'|| month==='may'){
    result = 'nice spring';
-}else if ( month=== 'june'| month=== 'august'| month==='july'){
+}else if ( month=== 'june'|| month=== 'august'|| month==='july'){
    result='nice summer'; 
- }else if ( month=== 'november'| month==='october' | month=== 'august'){
+ }else if ( month=== 'november'|| month==='october' || month=== 'august'){
    result= 'nice autnum';}
    else{
     result='nice year';
@@ -27,7 +30,9 @@ while (calculate!= 12) {
 if (calculate == 12) {
 alert ("this is true");
 }
+var hello="hello";
 var i;
 for (i= 1; i<5 ; i=i+1 ){
-   console.log(i)
+   // console.log (i++);
+   document.write('<p>'+ hello +'</p>'); 
 }
