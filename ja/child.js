@@ -20,10 +20,14 @@ if (month==='december'|month=== 'janyary'|month ==='february'){
    
 document .write( ' <h3>' +result + '</h3>');
 console.log('hi');
-var calculate=prompt ("5*7=");
-while (calculate!= 35) {
+var calculate=prompt ("3*4=");
+while (calculate!= 12) {
    calculate = prompt ("Sorry incorrect awnswer");
 }
-if (calculate == 35) {
+if (calculate == 12) {
 alert ("this is true");
+}
+var i;
+for (i= 1; i<5 ; i=i+1 ){
+   console.log(i)
 }
